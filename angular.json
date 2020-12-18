@@ -120,6 +120,10 @@
               "devServerTarget": "komis-gitar:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
