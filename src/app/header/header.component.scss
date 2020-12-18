@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(82, 109, 103);
+    height: 4rem;
+    img {
+        height: 80%;
+    }
+}
+
+h1 {
+    color: rgb(224, 234, 238);
+    span {
+        color: rgb(238, 227, 216);
+    }
+}

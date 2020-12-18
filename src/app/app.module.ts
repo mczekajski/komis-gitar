@@ -2,10 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { GuitarCardComponent } from './guitar-card/guitar-card.component';
+import { HeaderComponent } from './header/header.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GuitarCardComponent,
+    HeaderComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule
