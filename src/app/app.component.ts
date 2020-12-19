@@ -6,5 +6,37 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'komis-gitar';
+  title = "komis-gitar";
+  guitars = [
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+    {
+      name: 'Fender Stratocaster',
+      imageUrl: 'assets/img/strat.jpg',
+      description: 'Beautiful Fender Stratocaster escpecially for you!',
+    },
+  ];
 }
