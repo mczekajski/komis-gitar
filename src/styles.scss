@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@300;400;700;900&display=swap");
+
+$menu-bgc: #659dbd;
+$main-bgc: #eeeeee;
+
 *,
 ::before,
 ::after {
@@ -8,7 +12,7 @@
 }
 
 body {
-    font-family: Lato, Roboto, Arial, sans-serif;
+  font-family: Lato, Roboto, Arial, sans-serif;
 }
 
 .container {
@@ -31,7 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color:#eeeeee;
+    background-color: $main-bgc;
   }
 }
 
@@ -40,8 +44,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #659dbd;
+  background-color: $menu-bgc;
   height: 4rem;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 
   &__logo {
     display: flex;
@@ -63,17 +68,43 @@ body {
   }
 
   &__menu {
-      &--mobile {
-        margin: auto 0;
-        svg {
-          transition: 0.4s;
-          cursor: pointer;
-          fill: #fff;
-          &:hover {
-            fill: #fbeec1;
-          }
+    &-list {
+      display: flex;
+      height: 4rem;
+      list-style-type: none;
+      &-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $menu-bgc;
+      }
+    }
+    &-link {
+      display: block;
+      height: 4rem;
+      line-height: 4rem;
+      padding: 0 1rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: $main-bgc;
+      text-decoration: none;
+      transition: color 0.1s;
+      &:hover {
+        background-color: darken($main-bgc, 30%)
+      }
+    }
+    &-icon {
+      margin: auto 0;
+      display: none;
+      svg {
+        transition: 0.4s;
+        cursor: pointer;
+        fill: #fff;
+        &:hover {
+          fill: #fbeec1;
         }
       }
+    }
   }
 }
 
@@ -83,6 +114,6 @@ body {
   margin: 1rem;
   min-height: 300px;
   color: white;
-//   border: 1px solid gray;
+  //   border: 1px solid gray;
   background: url("assets/img/strat.jpg") no-repeat center / 100% padding-box;
 }
