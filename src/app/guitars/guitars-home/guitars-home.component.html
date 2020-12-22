@@ -1,0 +1,9 @@
+
+  <div class="wrapper wrapper--main">
+    <app-guitar-card
+      *ngFor="let guitar of guitars"
+      [name]="guitar.name"
+      [imageUrl]="guitar.imageUrl"
+      [description]="guitar.description"
+    ></app-guitar-card>
+

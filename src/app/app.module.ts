@@ -4,16 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { GuitarCardComponent } from './guitar-card/guitar-card.component';
+import { GuitarsModule } from './guitars/guitars.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GuitarCardComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    GuitarsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

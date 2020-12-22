@@ -1,7 +1,7 @@
 <header class="container header">
   <div class="wrapper">
     <div class="header__logo">
-      <h1>centrum <span>gitar</span></h1>
+      <h1>gitarowy <span>komis</span></h1>
       <img src="assets/img/electric-guitar.svg" />
     </div>
     <nav class="header__menu--mobile">
@@ -25,12 +25,5 @@
 </header>
 
 <main class="container main">
-  <div class="wrapper wrapper--main">
-    <app-guitar-card
-      *ngFor="let guitar of guitars"
-      [name]="guitar.name"
-      [imageUrl]="guitar.imageUrl"
-      [description]="guitar.description"
-    ></app-guitar-card>
-  </div>
+  <router-outlet></router-outlet>
 </main>
