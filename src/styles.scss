@@ -2,6 +2,7 @@
 
 $menu-bgc: #659dbd;
 $main-bgc: #eeeeee;
+$menu-height: 4rem;
 
 *,
 ::before,
@@ -45,7 +46,7 @@ body {
   justify-content: center;
   width: 100%;
   background-color: $menu-bgc;
-  height: 4rem;
+  height: $menu-height;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 
   &__logo {
@@ -70,7 +71,7 @@ body {
   &__menu {
     &-list {
       display: flex;
-      height: 4rem;
+      height: $menu-height;
       list-style-type: none;
       &-item {
         display: flex;
@@ -81,8 +82,8 @@ body {
     }
     &-link {
       display: block;
-      height: 4rem;
-      line-height: 4rem;
+      height: $menu-height;
+      line-height: $menu-height;
       padding: 0 1rem;
       font-weight: 700;
       letter-spacing: 1px;
@@ -90,7 +91,7 @@ body {
       text-decoration: none;
       transition: color 0.1s;
       &:hover {
-        background-color: darken($main-bgc, 30%)
+        background-color: darken( #fbeec1, 40%)
       }
     }
     &-icon {
@@ -116,4 +117,10 @@ body {
   color: white;
   //   border: 1px solid gray;
   background: url("assets/img/strat.jpg") no-repeat center / 100% padding-box;
+}
+
+.banner {
+  width: 100vw;
+  height: calc(100vh - 4rem);
+  background: url('/assets/img/banner/frame-harirak-strat.jpg') no-repeat center;
 }
