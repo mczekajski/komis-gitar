@@ -1,0 +1,89 @@
+.banner {
+  width: 100vw;
+  height: calc(100vh - 4rem);
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__window {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #eee;
+  font-family: "Lato";
+  font-size: 1.4rem;
+  width: 80vw;
+  max-width: 50rem;
+  min-width: 20rem;
+  height: 30rem;
+  padding: 2rem;
+  border: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__button {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.btn {
+  line-height: 23px;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+  margin-top: 2rem;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  animation: slider 18s infinite linear;
+  z-index: -1;
+}
+
+img:nth-child(2) {
+  animation-delay: 6s;
+}
+
+img:nth-child(3) {
+  animation-delay: 12s;
+}
+
+@keyframes slider {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+
+  43.33% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -13,13 +13,13 @@ export class GuitarsHomeComponent implements OnInit {
       description: 'Beautiful Fender Stratocaster escpecially for you!',
     },
     {
-      name: 'Fender Stratocaster',
-      imageUrl: 'assets/img/strat.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      name: 'Fender Jaguar',
+      imageUrl: 'assets/img/jag.jpg',
+      description: 'Fender Jaguar Vintera Series',
     },
     {
-      name: 'Fender Stratocaster',
-      imageUrl: 'assets/img/strat.jpg',
+      name: 'Fender Telecaster',
+      imageUrl: 'assets/img/tele.jpg',
       description: 'Beautiful Fender Stratocaster escpecially for you!',
     },
     {
