@@ -12,8 +12,9 @@ $menu-height: 4rem;
   box-sizing: border-box;
 }
 
-body {
+html {
   font-family: Lato, Roboto, Arial, sans-serif;
+  overflow-y: overlay;
 }
 
 .container {
