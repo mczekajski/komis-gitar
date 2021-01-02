@@ -6,7 +6,7 @@
     </div>
     <nav class="header__menu">
       <!-- hamburger menu icon -->
-      <div class="header__menu-icon">
+      <div class="header__menu-icon" (click)="onMenuClick()">
         <svg
           height="32px"
           id="Layer_1"
@@ -25,7 +25,7 @@
       </div>
 
       <!-- list menu -->
-      <ul class="header__menu-list">
+      <ul class="header__menu-list hidden">
         <li class="header__menu-list-item">
           <a routerLink="/" class="header__menu-link">Strona&nbsp;główna</a>
         </li>

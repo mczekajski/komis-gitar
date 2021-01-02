@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@300;400;700;900&display=swap");
-
-$menu-bgc: #659dbd;
-$main-bgc: #ffffff;
-$menu-height: 4rem;
+@import 'variables';
 
 *,
 ::before,
@@ -38,76 +35,5 @@ html {
     justify-content: space-around;
     align-items: center;
     background-color: $main-bgc;
-  }
-}
-
-.header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: $menu-bgc;
-  height: $menu-height;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  z-index: 1;
-
-  &__logo {
-    display: flex;
-    align-items: center;
-    h1 {
-      font-family: "Fredoka One";
-      font-size: 1.5rem;
-      color: #fff;
-      letter-spacing: 2px;
-      text-transform: capitalize;
-      span {
-        color: #fbeec1;
-      }
-    }
-    img {
-      height: 80%;
-      padding: 0 0.5rem;
-    }
-  }
-
-  &__menu {
-    &-list {
-      display: flex;
-      height: $menu-height;
-      list-style-type: none;
-      &-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: $menu-bgc;
-      }
-    }
-    &-link {
-      display: block;
-      height: $menu-height;
-      line-height: $menu-height;
-      padding: 0 1rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      color: $main-bgc;
-      text-decoration: none;
-      transition: color 0.1s;
-      &:hover {
-        background-color: darken(#fbeec1, 40%);
-      }
-    }
-    &-icon {
-      margin: auto 0;
-      display: none;
-      svg {
-        transition: 0.4s;
-        cursor: pointer;
-        fill: #fff;
-        &:hover {
-          fill: #fbeec1;
-        }
-      }
-    }
   }
 }
