@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { GuitarsModule } from './guitars/guitars.module';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
