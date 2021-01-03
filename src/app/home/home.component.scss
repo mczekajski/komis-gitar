@@ -1,61 +1,64 @@
-a {
-    text-decoration: none;
-}
+@import "../../variables.scss";
 
 .banner {
+  display: flex;
+  justify-content: center;
   width: 100vw;
   height: calc(100vh - 4rem);
   position: relative;
   overflow: hidden;
-}
 
-.banner__window {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  color: #eee;
-  font-family: "Lato";
-  font-size: 1.4rem;
-  width: 80vw;
-  max-width: 50rem;
-  min-width: 20rem;
-  height: 25rem;
-  padding: 3rem;
-  border: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  &__description {
+    padding: 1rem 0 2rem 0;
+  }
 
-.banner__button {
-  margin-left: 0;
-  margin-right: 2rem;
-}
+  &__window-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: 100%;
+  }
 
-.btn {
-  line-height: 2rem;
-  display: block;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 10px 30px;
-  border: 0;
-  width: 20rem;
-  outline: none;
-  box-shadow: none;
-  margin-top: 2rem;
-  margin: auto;
-  cursor: pointer;
-  &:hover {
-      background-color: #e1b20f;
+  &__window {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0000006c;
+    color: #eee;
+    font-family: "Lato";
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 2rem;
+  }
+
+  &__button {
+    line-height: 3rem;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: 0;
+    max-width: 20rem;
+    outline: none;
+    box-shadow: none;
+    margin: auto;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($color-active, 40%);
       color: white;
+    }
   }
 }
 
@@ -96,5 +99,43 @@ img:nth-child(3) {
 
   100% {
     opacity: 0;
+  }
+}
+
+@media (min-width: 450px) {
+  .banner__window {
+    padding: 5rem 5rem;
+  }
+}
+
+@media (min-width: 650px) {
+  .banner {
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    position: relative;
+    overflow: hidden;
+
+    &__description {
+      padding: 2rem 0;
+    }
+
+    &__window {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 5vw;
+      left: 5vw;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #0000008f;
+      border: 1px solid #eee;
+      color: #eee;
+      font-family: "Lato";
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      width: 600px;
+      height: 500px;
+      padding: 5rem 5rem;
+    }
   }
 }

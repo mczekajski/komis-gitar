@@ -8,7 +8,8 @@ import { GuitarsModule } from './guitars/guitars.module';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MenuComponent } from './menu/menu.component';
-
+import { ContactModule } from './contact/contact.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GuitarsModule
+    GuitarsModule,
+    AboutModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -25,18 +25,19 @@
       </div>
 
       <!-- list menu -->
-      <ul class="header__menu-list hidden">
+      <ul class="header__menu-list header__menu-list--hidden">
         <li class="header__menu-list-item">
-          <a routerLink="/" class="header__menu-link">Strona&nbsp;główna</a>
+          <a routerLink="/" routerLinkActive="header__menu-list-item--active" [routerLinkActiveOptions]="{exact:
+            true}" class="header__menu-link">Strona&nbsp;główna</a>
         </li>
         <li class="header__menu-list-item">
-          <a routerLink="/oferta" class="header__menu-link">Oferta</a>
+          <a routerLink="/oferta" routerLinkActive="header__menu-list-item--active" class="header__menu-link">Oferta</a>
         </li>
         <li class="header__menu-list-item">
-          <a routerLink="/ofirmie" class="header__menu-link">O&nbsp;firmie</a>
+          <a routerLink="/ofirmie" routerLinkActive="header__menu-list-item--active" class="header__menu-link">O&nbsp;firmie</a>
         </li>
         <li class="header__menu-list-item">
-          <a routerLink="/kontakt" class="header__menu-link">Kontakt</a>
+          <a routerLink="/kontakt" routerLinkActive="header__menu-list-item--active" class="header__menu-link">Kontakt</a>
         </li>
       </ul>
     </nav>

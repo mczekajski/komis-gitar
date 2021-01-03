@@ -1,0 +1,19 @@
+.about__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 8rem;
+    h1 {
+        font-family: Lato, Roboto, Arial, sans-serif;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+}
+.about__banner {
+    width: 100vw;
+    height: 15rem;
+    overflow: hidden;
+    background: url('/assets/img/banner/odair-faleco-bw.jpg') center center no-repeat;
+}

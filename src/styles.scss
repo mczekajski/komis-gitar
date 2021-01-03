@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   font-family: Lato, Roboto, Arial, sans-serif;
   overflow-y: overlay;
@@ -27,13 +31,13 @@ html {
   flex-grow: 1;
   justify-content: space-between;
   max-width: 1300px;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 100%;
 
   &--main {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: $main-bgc;
+    background-color: $color-bg;
   }
 }
