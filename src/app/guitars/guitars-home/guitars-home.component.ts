@@ -8,44 +8,44 @@ import { Component, OnInit } from '@angular/core';
 export class GuitarsHomeComponent implements OnInit {
   guitars = [
     {
-      name: 'Fender Stratocaster',
+      name: '',
       imageUrl: 'assets/img/strat.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      description: '',
     },
     {
-      name: 'Fender Jaguar',
+      name: '',
       imageUrl: 'assets/img/jag.jpg',
-      description: 'Fender Jaguar Vintera Series',
+      description: '',
     },
     {
-      name: 'Fender Telecaster',
+      name: '',
       imageUrl: 'assets/img/tele.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      description: '',
     },
     {
-      name: 'Fender Stratocaster',
+      name: '',
       imageUrl: 'assets/img/strat.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      description: '',
     },
     {
-      name: 'Fender Jaguar',
+      name: '',
       imageUrl: 'assets/img/jag.jpg',
-      description: 'Fender Jaguar Vintera Series',
+      description: '',
     },
     {
-      name: 'Fender Telecaster',
+      name: '',
       imageUrl: 'assets/img/tele.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      description: '',
     },
     {
-      name: 'Fender Stratocaster',
+      name: '',
       imageUrl: 'assets/img/strat.jpg',
-      description: 'Beautiful Fender Stratocaster escpecially for you!',
+      description: '',
     },
     {
-      name: 'Fender Jaguar',
+      name: '',
       imageUrl: 'assets/img/jag.jpg',
-      description: 'Fender Jaguar Vintera Series',
+      description: '',
     }
   ];
 
