@@ -15,5 +15,4 @@ export class MenuComponent implements OnInit {
   onMenuClick() {
     document.querySelector(".header__menu-list").classList.toggle("header__menu-list--hidden");
   }
-
 }
