@@ -1,3 +1,10 @@
+h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+p {
+    margin: 1rem;
+}
 .about__header {
     display: flex;
     flex-direction: column;
@@ -16,5 +23,6 @@
     width: 100vw;
     height: 15rem;
     overflow: hidden;
-    background: url('/assets/img/banner/odair-faleco-bw.jpg') center center no-repeat;
+    background: center center no-repeat;
+    background-size: cover;
 }

@@ -23,6 +23,9 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
+  &--column {
+    flex-direction: column;
+  }
 }
 
 .wrapper {
@@ -39,5 +42,9 @@ html {
     justify-content: space-around;
     align-items: center;
     background-color: $color-bg;
+  }
+
+  &--column {
+    flex-direction: column;
   }
 }

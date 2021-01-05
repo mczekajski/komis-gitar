@@ -1,6 +1,20 @@
+h2 {
+    text-transform: uppercase;
+    line-height: 8rem;
+}
+p {
+    margin-bottom: 2rem;
+}
 .contact__banner {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background: url('/assets/img/sklep.jpg') center center no-repeat;
+  position: absolute;
+  left: 0;
+  top: 4rem;
+  width: 100%;
+  height: calc(100% - 4rem);
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.contact__wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
 }
