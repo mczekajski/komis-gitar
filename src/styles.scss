@@ -28,6 +28,10 @@ html {
   }
 }
 
+.spacer {
+  flex-grow: 1;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;

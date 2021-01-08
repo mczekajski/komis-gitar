@@ -1,5 +1,41 @@
-<p>guitar-product works!</p>
+<div class="wrapper wrapper--main">
 
-{{ guitar.company }}
-{{ guitar.model }}
-{{ guitar.series }}
+<div class="product">
+
+    <div class="product__image-container">
+        <img [src]="guitar.imageUrl" class="product__image">
+    </div>
+   
+    <div class="product__description-container">
+
+        <h2>{{ guitar.company }} {{ guitar.model }}</h2>
+        <h3>{{ guitar.series }} Series</h3>
+        <h4>Rok produkcji: {{ guitar.year }}</h4>
+        <p>{{ guitar.description }}</p>
+        <p></p>
+        <h3>NASZA CENA: {{ guitar.price }} ,-</h3>
+
+        <div class="product__description-buttons">
+
+            <a routerLink="/oferta">
+              <button class="product__description-button spacer">Kup teraz</button>
+            </a>
+
+              <a routerLink="/oferta">
+              <button class="product__description-button spacer">Powrót do oferty</button>
+            </a>
+        </div>
+
+
+
+        
+        
+        
+    </div>
+
+
+
+
+
+</div>
+</div>
