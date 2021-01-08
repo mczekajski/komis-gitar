@@ -1,0 +1,124 @@
+{
+    "guitars": [
+        {
+            "company": "Fender",
+            "model": "Stratocaster",
+            "series": "American Standard",
+            "year": 2018,
+            "imageUrl": "assets/img/strat.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Jaguar",
+            "series": "Professional",
+            "year": 2015,
+            "imageUrl": "assets/img/jag.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Telecaster",
+            "series": "Deluxe",
+            "year": 2013,
+            "imageUrl": "assets/img/tele.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Stratocaster",
+            "series": "American Standard",
+            "year": 2018,
+            "imageUrl": "assets/img/strat.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Jaguar",
+            "series": "Professional",
+            "year": 2015,
+            "imageUrl": "assets/img/jag.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Telecaster",
+            "series": "Deluxe",
+            "year": 2013,
+            "imageUrl": "assets/img/tele.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Stratocaster",
+            "series": "American Standard",
+            "year": 2018,
+            "imageUrl": "assets/img/strat.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Jaguar",
+            "series": "Professional",
+            "year": 2015,
+            "imageUrl": "assets/img/jag.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Telecaster",
+            "series": "Deluxe",
+            "year": 2013,
+            "imageUrl": "assets/img/tele.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Stratocaster",
+            "series": "American Standard",
+            "year": 2018,
+            "imageUrl": "assets/img/strat.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Jaguar",
+            "series": "Professional",
+            "year": 2015,
+            "imageUrl": "assets/img/jag.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        },
+        {
+            "company": "Fender",
+            "model": "Telecaster",
+            "series": "Deluxe",
+            "year": 2013,
+            "imageUrl": "assets/img/tele.jpg",
+            "description": "",
+            "price": "",
+            "sold": false
+        }
+    ]
+}
