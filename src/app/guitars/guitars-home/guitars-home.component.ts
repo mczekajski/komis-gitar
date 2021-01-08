@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GuitarsService } from '../../services/guitars.service';
 
 @Component({
   selector: 'app-guitars-home',
@@ -6,11 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./guitars-home.component.scss']
 })
 export class GuitarsHomeComponent implements OnInit {
-  guitars = [];
+  guitars: Array<Object>;
 
-  constructor() { }
+  constructor(private guitarsService: GuitarsService) { }
 
   ngOnInit(): void {
+    this.getGuitars();
+  }
+
+  getGuitars() {
+    this.guitarsService.getGuitars().subscribe(data => {
+      this.guitars = data.guitars;
+    })
   }
 
 }

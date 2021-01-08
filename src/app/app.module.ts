@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactModule } from './contact/contact.module';
 import { AboutModule } from './about/about.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AboutModule } from './about/about.module';
     AppRoutingModule,
     GuitarsModule,
     AboutModule,
-    ContactModule
+    ContactModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
