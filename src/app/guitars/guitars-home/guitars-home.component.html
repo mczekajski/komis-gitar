@@ -2,9 +2,7 @@
   <div class="guitars">
     <app-guitar-card
       *ngFor="let guitar of guitars"
-      [name]="guitar.name"
-      [imageUrl]="guitar.imageUrl"
-      [description]="guitar.description"
+      [guitar]="guitar"
     ></app-guitar-card>
   </div>
 </div>

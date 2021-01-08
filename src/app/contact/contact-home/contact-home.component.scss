@@ -11,10 +11,12 @@ p {
 .contact__banner {
   position: relative;
   width: 100vw;
+  min-height: 100vh;
   background: center center;
   background-size: cover;
 }
 
 .contact__wrapper {
   background-color: rgba(255, 255, 255, 0.9);
+  justify-content: flex-start;
 }

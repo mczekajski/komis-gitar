@@ -7,7 +7,7 @@ import { GuitarsService } from '../../services/guitars.service';
   styleUrls: ['./guitars-home.component.scss']
 })
 export class GuitarsHomeComponent implements OnInit {
-  guitars: Array<Object>;
+  guitars;
 
   constructor(private guitarsService: GuitarsService) { }
 
@@ -17,7 +17,7 @@ export class GuitarsHomeComponent implements OnInit {
 
   getGuitars() {
     this.guitarsService.getGuitars().subscribe(data => {
-      this.guitars = data.guitars;
+      this.guitars = data;
     })
   }
 

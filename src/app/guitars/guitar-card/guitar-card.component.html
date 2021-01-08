@@ -1,5 +1,5 @@
-<div class="guitar-card">
-    <h2>{{ name }}</h2>
-    <img [src]="imageUrl">
-    <p>{{ description }}</p>
+<div routerLink="produkt" [state]="guitar" class="guitar-card">
+    <h2>{{ guitar.company }} {{ guitar.model }}</h2>
+    <img [src]="guitar.imageUrl">
+    <p>{{ guitar.description }}</p>
 </div>

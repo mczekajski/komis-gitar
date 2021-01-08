@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Guitar } from '../../services/guitars.service';
 
 @Component({
   selector: 'app-guitar-card',
@@ -6,9 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./guitar-card.component.scss']
 })
 export class GuitarCardComponent implements OnInit {
-  @Input() name = "";
-  @Input() imageUrl = "";
-  @Input() description = "";
+  @Input() guitar: Guitar;
 
   constructor() { }
 
