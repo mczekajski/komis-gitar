@@ -19,6 +19,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./contact/contact.module').then((m) => m.ContactModule),
   },
+  {
+    path: 'admin',
+    loadChildren: () =>
+      import('./admin-panel/admin-panel.module').then((m) => m.AdminPanelModule),
+  },
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent }
 ];

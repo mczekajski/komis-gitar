@@ -13,12 +13,16 @@ h2, h3, h4, p {
     margin-top: 2rem;
 
     &__image {
-        height: 90%;
+        max-height: calc(100vh - 8rem);
+        max-width: 100%;
+        width: auto;
+        height: auto;
         padding: 2rem;
         &-container {
             display: flex;
             align-items: center;
             justify-content: center;
+            min-height: 100%;
             width: 30%;
 
         }
@@ -35,6 +39,10 @@ h2, h3, h4, p {
         }
         &-buttons {
             display: flex;
+            flex-direction: column;
+            @media (min-width: 768px) {
+                flex-direction: row;
+            }
         }
         &-button {
             line-height: 3rem;
