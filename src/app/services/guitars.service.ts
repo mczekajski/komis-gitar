@@ -25,7 +25,7 @@ export class GuitarsService {
   constructor(private http: HttpClient) {}
 
   public getGuitars(){
-    return this.http.get<Guitars>('/assets/data/guitars.json').pipe(
+    return this.http.get<Guitars>('assets/data/guitars.json').pipe(
       pluck('guitars')
     )
   }
