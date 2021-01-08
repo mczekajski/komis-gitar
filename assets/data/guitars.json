@@ -6,8 +6,8 @@
             "series": "American Standard",
             "year": 2018,
             "imageUrl": "assets/img/strat.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Stratocaster to najbardziej rozpoznawalna i najpopularniejsza gitara elektryczna na świecie. Brzmienie klasycznego Strata jest jednym z tych, które na zawsze zmieniło muzykę i stało się niedoścignionym wzorem dla innych producentów. Oryginał jest jednak nie do podrobienia, a seria American Standard wyznacza drogę, którą od dziesięcioleci podążają najlepsi gitarzyści na tej planecie. Połączenie olchowego korpusu oraz gryfu i podstrunnicy wykonanych z klonu, nadaje gitarze dokładnie takiego brzmienia jaki wymyślił sobie Leo Fender blisko 60 lat temu. Instrument odzywa się jasnym, dynamicznym tonem, które aż prosi się o delikatny bluesowy przester lub soczysty fuzz w stylu Jimiego Hendrixa. Równie zachwyceni będą miłośnicy czystych brzmień. Genialny Leo nie pomylił się, jego konstrukcje zrewolucjonizowały muzykę, a obecna seria American Standard jest doskonałym dowodem na to, że zostawił firmę w dobrych rękach.",
+            "price": "4900",
             "sold": false
         },
         {
@@ -16,8 +16,8 @@
             "series": "Professional",
             "year": 2015,
             "imageUrl": "assets/img/jag.jpg",
-            "description": "",
-            "price": "",
+            "description": "Nowa seria gitar elektrycznych marki Fender zawiera wszystko co najlepsze w amerykańskiej serii standard wzbogacone o nowe ulepszone elementy. Zupełnie nowy kształt gryfu oraz zastosowanie progów NARROW-TALL dają jeszcze lepsze odczucia i komfort gry. Legendarny i charakterystyczny korpus Jaguar zaopatrzony jest w pickupy V-Mod Single Coil Jaguar, które brzmieniowo nawiązują do ciepłego, vintagowego brzmienia z dobrze zdefiniowanym \"punchem\".",
+            "price": "7500",
             "sold": false
         },
         {
@@ -26,8 +26,8 @@
             "series": "Deluxe",
             "year": 2013,
             "imageUrl": "assets/img/tele.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Telecaster jest pierwszą seryjnie produkowaną elektryczną \"dechą\". Niby nic dziwnego, zawsze jest jakiś początek. Jednak fakt, że od ponad 60 lat instrument praktycznie nie zmienił swoich pierwotnych założeń konstrukcyjnych może być powodem do dumy jego producenta. Leo Fender skonstruował Telecastera w 1951 i do dnia dzisiejszego produkowany jest on w niezmienionej formie. Poczciwy Tele jest więc gitarą ponadczasową, uniwersalną i dość odważnie ocierająca się o ideał. Grali, grają i będą grać na niej najwspanialsi gitarzyści na planecie. Seria American Standard jest dokładnie tym czego oczekujemy od rasowego Tele - brzmienie, brzmienie i jeszcze raz brzmienie!",
+            "price": "5400",
             "sold": false
         },
         {
@@ -36,7 +36,7 @@
             "series": "American Standard",
             "year": 2018,
             "imageUrl": "assets/img/strat.jpg",
-            "description": "",
+            "description": "Fender Stratocaster to najbardziej rozpoznawalna i najpopularniejsza gitara elektryczna na świecie. Brzmienie klasycznego Strata jest jednym z tych, które na zawsze zmieniło muzykę i stało się niedoścignionym wzorem dla innych producentów. Oryginał jest jednak nie do podrobienia, a seria American Standard wyznacza drogę, którą od dziesięcioleci podążają najlepsi gitarzyści na tej planecie. Połączenie olchowego korpusu oraz gryfu i podstrunnicy wykonanych z klonu, nadaje gitarze dokładnie takiego brzmienia jaki wymyślił sobie Leo Fender blisko 60 lat temu. Instrument odzywa się jasnym, dynamicznym tonem, które aż prosi się o delikatny bluesowy przester lub soczysty fuzz w stylu Jimiego Hendrixa. Równie zachwyceni będą miłośnicy czystych brzmień. Genialny Leo nie pomylił się, jego konstrukcje zrewolucjonizowały muzykę, a obecna seria American Standard jest doskonałym dowodem na to, że zostawił firmę w dobrych rękach.",
             "price": "",
             "sold": false
         },
@@ -46,8 +46,8 @@
             "series": "Professional",
             "year": 2015,
             "imageUrl": "assets/img/jag.jpg",
-            "description": "",
-            "price": "",
+            "description": "Nowa seria gitar elektrycznych marki Fender zawiera wszystko co najlepsze w amerykańskiej serii standard wzbogacone o nowe ulepszone elementy. Zupełnie nowy kształt gryfu oraz zastosowanie progów NARROW-TALL dają jeszcze lepsze odczucia i komfort gry. Legendarny i charakterystyczny korpus Jaguar zaopatrzony jest w pickupy V-Mod Single Coil Jaguar, które brzmieniowo nawiązują do ciepłego, vintagowego brzmienia z dobrze zdefiniowanym \"punchem\".",
+            "price": "7500",
             "sold": false
         },
         {
@@ -56,8 +56,8 @@
             "series": "Deluxe",
             "year": 2013,
             "imageUrl": "assets/img/tele.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Telecaster jest pierwszą seryjnie produkowaną elektryczną \"dechą\". Niby nic dziwnego, zawsze jest jakiś początek. Jednak fakt, że od ponad 60 lat instrument praktycznie nie zmienił swoich pierwotnych założeń konstrukcyjnych może być powodem do dumy jego producenta. Leo Fender skonstruował Telecastera w 1951 i do dnia dzisiejszego produkowany jest on w niezmienionej formie. Poczciwy Tele jest więc gitarą ponadczasową, uniwersalną i dość odważnie ocierająca się o ideał. Grali, grają i będą grać na niej najwspanialsi gitarzyści na planecie. Seria American Standard jest dokładnie tym czego oczekujemy od rasowego Tele - brzmienie, brzmienie i jeszcze raz brzmienie!",
+            "price": "5400",
             "sold": false
         },
         {
@@ -66,8 +66,8 @@
             "series": "American Standard",
             "year": 2018,
             "imageUrl": "assets/img/strat.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Stratocaster to najbardziej rozpoznawalna i najpopularniejsza gitara elektryczna na świecie. Brzmienie klasycznego Strata jest jednym z tych, które na zawsze zmieniło muzykę i stało się niedoścignionym wzorem dla innych producentów. Oryginał jest jednak nie do podrobienia, a seria American Standard wyznacza drogę, którą od dziesięcioleci podążają najlepsi gitarzyści na tej planecie. Połączenie olchowego korpusu oraz gryfu i podstrunnicy wykonanych z klonu, nadaje gitarze dokładnie takiego brzmienia jaki wymyślił sobie Leo Fender blisko 60 lat temu. Instrument odzywa się jasnym, dynamicznym tonem, które aż prosi się o delikatny bluesowy przester lub soczysty fuzz w stylu Jimiego Hendrixa. Równie zachwyceni będą miłośnicy czystych brzmień. Genialny Leo nie pomylił się, jego konstrukcje zrewolucjonizowały muzykę, a obecna seria American Standard jest doskonałym dowodem na to, że zostawił firmę w dobrych rękach.",
+            "price": "4900",
             "sold": false
         },
         {
@@ -77,7 +77,7 @@
             "year": 2015,
             "imageUrl": "assets/img/jag.jpg",
             "description": "",
-            "price": "",
+            "price": "7500",
             "sold": false
         },
         {
@@ -86,8 +86,8 @@
             "series": "Deluxe",
             "year": 2013,
             "imageUrl": "assets/img/tele.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Telecaster jest pierwszą seryjnie produkowaną elektryczną \"dechą\". Niby nic dziwnego, zawsze jest jakiś początek. Jednak fakt, że od ponad 60 lat instrument praktycznie nie zmienił swoich pierwotnych założeń konstrukcyjnych może być powodem do dumy jego producenta. Leo Fender skonstruował Telecastera w 1951 i do dnia dzisiejszego produkowany jest on w niezmienionej formie. Poczciwy Tele jest więc gitarą ponadczasową, uniwersalną i dość odważnie ocierająca się o ideał. Grali, grają i będą grać na niej najwspanialsi gitarzyści na planecie. Seria American Standard jest dokładnie tym czego oczekujemy od rasowego Tele - brzmienie, brzmienie i jeszcze raz brzmienie!",
+            "price": "5400",
             "sold": false
         },
         {
@@ -96,8 +96,8 @@
             "series": "American Standard",
             "year": 2018,
             "imageUrl": "assets/img/strat.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Stratocaster to najbardziej rozpoznawalna i najpopularniejsza gitara elektryczna na świecie. Brzmienie klasycznego Strata jest jednym z tych, które na zawsze zmieniło muzykę i stało się niedoścignionym wzorem dla innych producentów. Oryginał jest jednak nie do podrobienia, a seria American Standard wyznacza drogę, którą od dziesięcioleci podążają najlepsi gitarzyści na tej planecie. Połączenie olchowego korpusu oraz gryfu i podstrunnicy wykonanych z klonu, nadaje gitarze dokładnie takiego brzmienia jaki wymyślił sobie Leo Fender blisko 60 lat temu. Instrument odzywa się jasnym, dynamicznym tonem, które aż prosi się o delikatny bluesowy przester lub soczysty fuzz w stylu Jimiego Hendrixa. Równie zachwyceni będą miłośnicy czystych brzmień. Genialny Leo nie pomylił się, jego konstrukcje zrewolucjonizowały muzykę, a obecna seria American Standard jest doskonałym dowodem na to, że zostawił firmę w dobrych rękach.",
+            "price": "4900",
             "sold": false
         },
         {
@@ -106,8 +106,8 @@
             "series": "Professional",
             "year": 2015,
             "imageUrl": "assets/img/jag.jpg",
-            "description": "",
-            "price": "",
+            "description": "Nowa seria gitar elektrycznych marki Fender zawiera wszystko co najlepsze w amerykańskiej serii standard wzbogacone o nowe ulepszone elementy. Zupełnie nowy kształt gryfu oraz zastosowanie progów NARROW-TALL dają jeszcze lepsze odczucia i komfort gry. Legendarny i charakterystyczny korpus Jaguar zaopatrzony jest w pickupy V-Mod Single Coil Jaguar, które brzmieniowo nawiązują do ciepłego, vintagowego brzmienia z dobrze zdefiniowanym \"punchem\".",
+            "price": "7500",
             "sold": false
         },
         {
@@ -116,8 +116,8 @@
             "series": "Deluxe",
             "year": 2013,
             "imageUrl": "assets/img/tele.jpg",
-            "description": "",
-            "price": "",
+            "description": "Fender Telecaster jest pierwszą seryjnie produkowaną elektryczną \"dechą\". Niby nic dziwnego, zawsze jest jakiś początek. Jednak fakt, że od ponad 60 lat instrument praktycznie nie zmienił swoich pierwotnych założeń konstrukcyjnych może być powodem do dumy jego producenta. Leo Fender skonstruował Telecastera w 1951 i do dnia dzisiejszego produkowany jest on w niezmienionej formie. Poczciwy Tele jest więc gitarą ponadczasową, uniwersalną i dość odważnie ocierająca się o ideał. Grali, grają i będą grać na niej najwspanialsi gitarzyści na planecie. Seria American Standard jest dokładnie tym czego oczekujemy od rasowego Tele - brzmienie, brzmienie i jeszcze raz brzmienie!",
+            "price": "5400",
             "sold": false
         }
     ]
